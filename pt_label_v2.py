@@ -12,8 +12,12 @@ train_num = 6000
 
 train_file_path = target_dir + 'pt_train.txt'
 test_file_path = target_dir + 'pt_test.txt'
+names_file_path = target_dir + 'pt.names'
 train = open(train_file_path, 'w+')
 test = open(test_file_path, 'w+')
+names = open(names_file_path, 'w+')
+print('player', file = names)
+names.close()
 
 counter = 0
 data_path = Path(data_dir)
