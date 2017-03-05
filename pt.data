@@ -1,0 +1,6 @@
+classes= 1
+train  = /Users/junhanh/ML/playerTracking/training_data/pt_train.txt
+valid  = /Users/junhanh/ML/playerTracking/training_data/pt_test.txtt
+names = /Users/junhanh/ML/playerTracking/training_data/pt.names
+backup = backup
+
